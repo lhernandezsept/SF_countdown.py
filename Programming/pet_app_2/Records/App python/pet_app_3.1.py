@@ -102,7 +102,7 @@ def get_latest_submission_summaries(n=5):
 
 # Styling and defining main page
 def main_page():
-    set_background("/Users/Lisbeth/Desktop/Programming/pet_app_2/Records/App python/boston.jpg")
+    set_background("assets/boston.jpg")
     show_clock()
 
     st.markdown('<h2>📝 Latest Activity</h2>', unsafe_allow_html=True)
